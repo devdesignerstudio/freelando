@@ -4,7 +4,7 @@ const myTheme = {
   colors: {
     white: "#ffffff",
     warning: "",
-    focus: "",
+    focus: "#B009FF",
     primary: {
       a: "#5754ED",
       b: "#D93114",

@@ -15,6 +15,7 @@ import { TwitchIcon } from "./components/Icons/TwitchIcon"
 import { InstagramIcon } from "./components/Icons/InstagramIcon"
 import { InlineList } from "./components/InlineList/InlineList"
 import { InlineListItem } from "./components/InlineList/InlineListItem"
+import { DropdownList } from "./components/DropdownList/DropdownList"
 
 function App() {
   return (
@@ -52,7 +53,7 @@ function App() {
               </Row>
               <Row>
                 <Col lg={4} md={4} sm={4}>
-                  <TextField title="UF" />
+                  <DropdownList title="UF" />
                 </Col>
                 <Col lg={8} md={8} sm={8}>
                   <TextField title="Cidade" />
