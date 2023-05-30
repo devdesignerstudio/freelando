@@ -96,8 +96,17 @@ export const DropdownList = ({ title }) => {
           if (oldFocus == null) {
             return 0
           }
+          if (oldFocus === estadosBrasileiros.length - 1) {
+            return estadosBrasileiros.length - 1
+          }
           return (oldFocus += 1)
         })
+        break
+
+      case "Tab":
+      case "Escape":
+        setOptionFocus(null)
+        setVisibility(false)
         break
 
       case "ArrowUp":
