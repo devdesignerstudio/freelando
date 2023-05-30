@@ -7,22 +7,22 @@ const myTheme = {
     focus: "",
     primary: {
       a: "#5754ED",
-      b: "",
+      b: "#D93114",
       c: "",
     },
     secondary: {
-      a: "#EBEAF9",
+      a: "#F8F8FD",
       b: "",
       c: "",
     },
     neutral: {
       a: "#373737",
       b: "",
-      c: "",
+      c: "#F5F5F5",
     },
     dark: {
       a: "",
-      b: "",
+      b: "#B61B00",
     },
   },
   spacing: {
